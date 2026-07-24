@@ -197,4 +197,44 @@ KAGGLE_USERNAME = your_username
 KAGGLE_KEY = your_key
 
 
+# Screenshots
+
+## AI Copilot (Prompt + Response)
+
+![AI Copilot](screenshots/AI%20copilot.png)
+
+
+## ML Pricing Calculator (Input + Predicted Cost)
+
+![ML Pricing Calculator](screenshots/ML%20pricing%20calculator.png)
+
+The ML Pricing Calculator predicts the estimated freight cost based on user inputs such as distance, cargo details, and transportation information.
+
+
+## 3. Admin Panel – ML Model Card
+
+![Admin ML Model Card](screenshots/Admin%20ML%20Model%20card.png)
+
+The ML Model Card provides a summary of the trained machine learning models and their performance. It displays evaluation metrics such as R² Score, RMSE, and AI agent metrics, helping the administrator monitor the accuracy and effectiveness of the models.
+
+
+## 4. Admin Panel – User Management
+
+![Admin User Management](screenshots/Admin%20user%20management.png)
+
+The User Management module allows the administrator to add new users, delete existing users, and unlock locked accounts, ensuring secure and efficient management of application users.
+
+
+## 5. Account Lockout Message
+
+![Account Lockout Message](screenshots/Account%20lockout%20message.png)
+
+The account lockout feature temporarily locks a user account after multiple failed login attempts, protecting the application from unauthorized access and brute-force attacks.
+
+
+## 6. OTP Cooldown Message
+
+![OTP Cooldown Message](screenshots/otp%20cooldown%20message.png)
+
+The OTP cooldown feature prevents users from requesting multiple OTPs within a short period. This improves security and helps prevent misuse of the OTP verification process.
 
