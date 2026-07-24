@@ -199,10 +199,18 @@ KAGGLE_KEY = your_key
 
 # Screenshots
 
+### Home Page
+
+![Home Page](screenshots/Home%20page.png)
+
+The Home Page serves as the main dashboard after successful login. It provides secure access to all FreightQuote AI modules and system features.
+
+
 ## AI Copilot (Prompt + Response)
 
 ![AI Copilot](screenshots/AI%20copilot.png)
 
+The AI Copilot answers freight and logistics-related queries using the Qwen2.5-3B language model. It provides intelligent suggestions to support shipping and logistics decisions.
 
 ## ML Pricing Calculator (Input + Predicted Cost)
 
@@ -211,28 +219,28 @@ KAGGLE_KEY = your_key
 The ML Pricing Calculator predicts the estimated freight cost based on user inputs such as distance, cargo details, and transportation information.
 
 
-## 3. Admin Panel – ML Model Card
+## Admin Panel – ML Model Card
 
 ![Admin ML Model Card](screenshots/Admin%20ML%20Model%20card.png)
 
 The ML Model Card provides a summary of the trained machine learning models and their performance. It displays evaluation metrics such as R² Score, RMSE, and AI agent metrics, helping the administrator monitor the accuracy and effectiveness of the models.
 
 
-## 4. Admin Panel – User Management
+## Admin Panel – User Management
 
 ![Admin User Management](screenshots/Admin%20user%20management.png)
 
 The User Management module allows the administrator to add new users, delete existing users, and unlock locked accounts, ensuring secure and efficient management of application users.
 
 
-## 5. Account Lockout Message
+## Account Lockout Message
 
 ![Account Lockout Message](screenshots/Account%20lockout%20message.png)
 
 The account lockout feature temporarily locks a user account after multiple failed login attempts, protecting the application from unauthorized access and brute-force attacks.
 
 
-## 6. OTP Cooldown Message
+## OTP Cooldown Message
 
 ![OTP Cooldown Message](screenshots/otp%20cooldown%20message.png)
 
