@@ -73,6 +73,7 @@ Displays:
 
 # Project Structure
 
+```
 Milestone2/
 ├── README.md
 ├── FreightQuote_AI_Milestone2.ipynb
@@ -84,6 +85,7 @@ Milestone2/
     ├── admin_user_management.png
     ├── lockout_message.png
     └── otp_cooldown_message.png
+```
 
 # Google Colab Secrets Used
 
@@ -100,4 +102,100 @@ The following secrets are stored securely in Google Colab Secrets:
 | HUGGINGFACE_TOKEN | Access Hugging Face models |
 | KAGGLE_USERNAME | Kaggle API username |
 | KAGGLE_KEY | Kaggle API key |
+
+
+# How to Run the Project
+
+1. Open the `FreightQuote_AI_Milestone2.ipynb` notebook in Google Colab.
+
+2. Install all required dependencies using the requirements file.
+
+3. Configure the required secrets and API keys in Google Colab Secrets.
+
+4. Upload the required dataset and project files.
+
+5. Run all notebook cells sequentially.
+
+6. Train and load the Machine Learning models.
+
+7. Initialize the AI agents and LLM components.
+
+8. Launch the Streamlit application.
+
+9. Access the application using the generated Ngrok public URL.
+
+10. Login with user or admin credentials to use the FreightQuote AI features.
+
+
+# How to Create Ngrok Authentication Token
+
+1. Go to the Ngrok website and create an account.
+
+2. Login to your Ngrok account.
+
+3. Open the Ngrok Dashboard.
+
+4. Navigate to the **Your Authtoken** section.
+
+5. Copy the generated authentication token.
+
+6. Add the token to Google Colab Secrets:
+
+
+NGROK_AUTHTOKEN = your_ngrok_token
+
+# How to Create Hugging Face Token
+
+1. Go to the Hugging Face website and create an account.
+
+2. Login to your Hugging Face account.
+
+3. Open:
+
+
+Profile → Settings → Access Tokens
+
+
+4. Click **Create New Token**.
+
+5. Provide a token name and select required permissions.
+
+6. Generate and copy the token.
+
+7. Add the token to Google Colab Secrets:
+
+
+HUGGINGFACE_TOKEN = your_token
+
+# How to Create Kaggle Username and Kaggle Key
+
+1. Go to the Kaggle website and create an account.
+
+2. Login to your Kaggle account.
+
+3. Open:
+
+
+Profile → Settings
+
+
+4. Navigate to the **API** section.
+
+5. Click **Create New API Token**.
+
+6. A `kaggle.json` file will be downloaded.
+
+7. Open the file and copy:
+   - Kaggle Username
+   - Kaggle Key
+
+8. Add them to Google Colab Secrets:
+
+
+KAGGLE_USERNAME = your_username
+
+KAGGLE_KEY = your_key
+
+
+
 
