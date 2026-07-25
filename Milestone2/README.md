@@ -208,7 +208,7 @@ The Home Page serves as the main dashboard after successful login. It provides s
 
 ## AI Copilot (Prompt + Response)
 
-![AI Copilot](screenshots/AI%20copilot.png)
+![AI Copilot](screenshots/AI_copilot.png)
 
 The AI Copilot answers freight and logistics-related queries using the Qwen2.5-3B language model. It provides intelligent suggestions to support shipping and logistics decisions.
 
