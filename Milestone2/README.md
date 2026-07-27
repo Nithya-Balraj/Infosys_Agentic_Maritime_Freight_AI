@@ -201,7 +201,7 @@ KAGGLE_KEY = your_key
 
 ### Home Page
 
-![Home Page](screenshots/Home%20page.png)
+
 
 The Home Page serves as the main dashboard after successful login. It provides secure access to all FreightQuote AI modules and system features.
 
