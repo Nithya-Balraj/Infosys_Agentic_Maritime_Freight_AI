@@ -199,13 +199,6 @@ KAGGLE_KEY = your_key
 
 # Screenshots
 
-### Home Page
-
-
-
-The Home Page serves as the main dashboard after successful login. It provides secure access to all FreightQuote AI modules and system features.
-
-
 ## AI Copilot (Prompt + Response)
 
 ![AI Copilot](screenshots/AI_copilot.png)
