@@ -323,3 +323,11 @@ The knowledge base contains processed logistics documents and extracted informat
 ![RAG Pipeline](screenshots/RAG%20pipeline.png)
 
 The RAG pipeline demonstrates the complete workflow of document retrieval, similarity search, context extraction, and response generation using the LLM.
+
+## ✅ RAG Pipeline Validation
+
+![RAG Pipeline Validation](screenshots/RAG%20pipeline%20validation.png)
+
+The **RAG Pipeline Validation** chart shows the evaluation results of the RAG system by representing successful (Pass) and unsuccessful (Fail) validation cases.
+
+It verifies whether the system can retrieve relevant knowledge from the database and generate accurate, context-aware responses.
