@@ -304,5 +304,22 @@ Run the Streamlit application from the notebook.
 Open the generated **Ngrok URL** in your web browser to use the **Intelligent Freight Quote Generation System (IFQGS)**.
 
 
+# 📷 Screenshots
 
+## 🌐 Web Scraping Module
 
+![Web Scraping](screenshots/web%20scraping.png)
+
+The web scraping module collects relevant logistics information from web sources and extracts useful data required for building the knowledge base.
+
+## 📚 Knowledge Base Summary
+
+![Knowledge Base Summary](screenshots/knowledge%20base%20summary.png)
+
+The knowledge base contains processed logistics documents and extracted information used by the RAG system for retrieving relevant context.
+
+## 🧠 RAG Pipeline
+
+![RAG Pipeline](screenshots/RAG%20pipeline.png)
+
+The RAG pipeline demonstrates the complete workflow of document retrieval, similarity search, context extraction, and response generation using the LLM.
