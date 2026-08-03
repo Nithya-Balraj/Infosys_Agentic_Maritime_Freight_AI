@@ -311,7 +311,7 @@ Open the generated **Ngrok URL** in your web browser to use the **Intelligent Fr
 | Megha Ramthirth | Developed Milestone 1 user authentication UI and interface design. |
 | Sai Laghuvar | Worked on Milestone 2 UI components and Admin Dashboard interface. |
 | Udhay Gowda | Enhanced application screens and integrated user interaction flow. |
-| Padvika | Implemented Milestone 3 RAG pipeline and knowledge base integration. |
+| Padhvika | Implemented Milestone 3 RAG pipeline and knowledge base integration. |
 | Nithya | Prepared GitHub repository structure and README.md documentation. |
 
 ---
