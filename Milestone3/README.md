@@ -234,13 +234,11 @@ Create the following secrets inside **Google Colab → Secrets**.
 
 | Team Member | Contribution |
 |------------|--------------|
-| Megha Ramthirth | Developed Milestone 1 user authentication UI and interface design. |
-| Sai Laghuvar | Worked on Milestone 2 UI components and Admin Dashboard interface. |
-| Udhay Gowda | Enhanced application screens and integrated user interaction flow. |
-| Padhvika | Implemented Milestone 3 RAG pipeline and knowledge base integration. |
-| Nithya | Prepared GitHub repository structure and README.md documentation. |
-
----
+| Member 1 | Designed and developed the Streamlit user interface (UI) for the application, ensuring a responsive and user-friendly experience. |
+| Member 2 | Implemented the authentication system, including Login, Signup, Email OTP verification, JWT authentication, and password recovery features. |
+| Member 3 | Developed and integrated the AI Agents for freight pricing, route delay prediction, and carrier compliance analysis using machine learning models. |
+| Member 4 | Built the Retrieval-Augmented Generation (RAG) pipeline, including PDF processing, document chunking, embeddings, FAISS vector database, and semantic search. |
+| Member 5 | Managed the GitHub repository, project integration, README documentation, testing, and deployment using Google Colab, Streamlit, and Ngrok. |
 
 
 # 📷 Screenshots
