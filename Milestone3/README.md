@@ -46,14 +46,14 @@ Exposes the Streamlit application running on Google Colab to the internet using 
 ### 🤖 AI Freight Quote Copilot
 Integrates the Qwen2.5-3B-Instruct Large Language Model to assist users with logistics-related questions and freight quote generation.
 
-### 📊 Machine Learning Price Prediction
-Predicts freight pricing using multiple regression algorithms trained on logistics datasets.
+### 🚛 Agent 1 – Freight Pricing Agent
+Predicts transportation costs using multiple regression algorithms and selects the best-performing model for accurate freight pricing.
 
-### 🚛 Route Delay Prediction
-Uses classification algorithms to estimate shipment delays and transportation risks.
+### 🛣️ Agent 2 – Route Delay & Risk Prediction Agent
+Predicts shipment delays and transportation risks using classification algorithms to improve delivery planning.
 
-### ✅ Carrier Compliance Analysis
-Evaluates carrier reliability and compliance using machine learning models trained on logistics data.
+### ✅ Agent 3 – Carrier Compliance Agent
+Evaluates carrier reliability and compliance using historical logistics data to recommend trustworthy transport providers.
 
 ### 📈 Multi-Model Comparison
 Compares multiple machine learning algorithms and automatically selects the best-performing model based on evaluation metrics.
@@ -67,7 +67,6 @@ Allows administrators to manage users, unlock accounts, and monitor authenticati
 ### ⚡ Optimized LLM Loading
 Uses 4-bit quantization and GPU acceleration to reduce memory usage and improve inference speed.
 
----
 
 # ✅ Milestone 3 (RAG) Features
 
@@ -166,49 +165,6 @@ Minimizes incorrect or fabricated responses by grounding answers in trusted docu
 8. The **Qwen2.5-3B-Instruct** Large Language Model generates an accurate, context-aware response.
 
 
-# 📂 Project Structure
-
-```text
-IFQGS/
-│
-├── Milestone1/
-│   ├── app.py
-│   ├── auth.py
-│   ├── database.py
-│   ├── utils.py
-│   ├── config.py
-│   ├── requirements.txt
-│   └── README.md
-│
-├── Milestone2/
-│   ├── app.py
-│   ├── llm_engine.py
-│   ├── ml_models.py
-│   ├── admin.py
-│   ├── config.py
-│   ├── requirements.txt
-│   └── README.md
-│
-├── Milestone3/
-│   ├── rag_pipeline.py
-│   ├── document_loader.py
-│   ├── embeddings.py
-│   ├── vector_store.py
-│   ├── query_engine.py
-│   ├── knowledge_base/
-│   ├── requirements.txt
-│   └── README.md
-│
-├── screenshots/
-│
-├── README.md
-│
-└── requirements.txt
-```
-
----
-
-
 # 🔑 Google Colab Secrets
 
 Create the following secrets inside **Google Colab → Secrets**.
@@ -267,41 +223,11 @@ Create the following secrets inside **Google Colab → Secrets**.
 
 # ▶️ How to Run the Project
 
-### Step 1: Clone the Repository
-
-```bash
-git clone <repository-url>
-```
-
-### Step 2: Open in Google Colab
-
-Open the project notebook (`.ipynb`) in **Google Colab**.
-
-### Step 3: Configure Secrets
-
-Add all the required secrets in **Google Colab → Secrets**.
-
-### Step 4: Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 5: Run the Notebook
-
-Execute all notebook cells sequentially.
-
-### Step 6: Authenticate Ngrok
-
-Configure your **Ngrok Authtoken** and start the tunnel to expose the Streamlit application.
-
-### Step 7: Launch the Application
-
-Run the Streamlit application from the notebook.
-
-### Step 8: Access the Application
-
-Open the generated **Ngrok URL** in your web browser to use the **Intelligent Freight Quote Generation System (IFQGS)**.
+1. Open the project notebook (`.ipynb`) in Google Colab.
+2. Add all required secrets (`NGROK_AUTHTOKEN`, `HF_TOKEN`, `EMAIL_ADDRESS`, `EMAIL_PASSWORD`, `JWT_SECRET`, `KAGGLE_USERNAME`, and `KAGGLE_KEY`) in **Google Colab → Secrets**.
+3. Run all notebook cells sequentially to install the required libraries, load the models, and start the application.
+4. Start the Ngrok tunnel to generate a public URL for the Streamlit application.
+5. Open the generated Ngrok URL in your web browser to access the **Intelligent Freight Quote Generation System (IFQGS)**.
 
 
 # 👥 Team Member Contributions
