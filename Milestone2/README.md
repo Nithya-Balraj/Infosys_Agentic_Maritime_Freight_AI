@@ -1,10 +1,10 @@
-# Intelligent Freight Quote AI
+# Agentic AI for Maritime Freight Pricing and Route Optimization
 
 ## Milestone 2 - AI Agents, ML Pricing & Advanced Security
 
 # Project Description
 
-Intelligent Freight Quote AI is an AI-powered freight management system that generates intelligent freight quotes using Machine Learning, LLMs, and AI agents.
+Agentic AI for Maritime Freight Pricing and Route Optimization is an AI-powered freight management system that generates freight quotes using Machine Learning, LLMs, and AI agents.
 The system provides dynamic freight pricing, AI-based assistance, route optimization recommendations, and logistics insights. It also includes an Admin Panel for monitoring ML model performance, managing users, and maintaining application security.
 
 # Features Implemented
